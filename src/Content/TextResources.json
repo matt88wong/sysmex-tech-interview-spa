@@ -1,0 +1,13 @@
+{
+    "home": {
+        "name": "Matthew Wong",
+        "title": "Sysmex technical interview"
+    },
+    "textbox": {
+        "placeholder": "Type something in :)",
+        "title": "Type down below!"
+    },
+    "showbutton": {
+        "title": "Show!"
+    }
+}
