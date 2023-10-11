@@ -28,12 +28,11 @@ export const Home = () => {
     }
 
     return (
-        <div>
-            {TextResources.home.name}
-            {TextResources.home.title}
+        <>
+            <h1>{TextResources.home.title}</h1>
             <TextBox onTextValueChange={handleTextValueChange} textColor={pickedColorValue} textValue={textValue} />
             <ColorPicker onPickedColorValueChange={handleColorPick} pickedColorValue={pickedColorValue}/>
             <Button disabled={!textValue} onClick={handleButtonClick} />
-        </div>
+        </>
     );
 }
