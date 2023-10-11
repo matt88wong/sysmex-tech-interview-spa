@@ -8,7 +8,7 @@
     },
     "textbox": {
         "placeholder": "Type something in :)",
-        "title": "Type something in the box down below!"
+        "title": "Type something in the text box down below!"
     },
     "button": {
         "title": "Show!"
