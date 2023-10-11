@@ -1,2 +1,2 @@
-export { ShowButton } from './ShowButton';
+export { Button } from './Button';
 export { TextBox } from './TextBox';

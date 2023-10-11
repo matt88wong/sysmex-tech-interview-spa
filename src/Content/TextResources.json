@@ -3,11 +3,14 @@
         "name": "Matthew Wong",
         "title": "Sysmex technical interview"
     },
+    "colorpicker": {
+        "title": "Pick a color :D"
+    },
     "textbox": {
         "placeholder": "Type something in :)",
-        "title": "Type down below!"
+        "title": "Type something in the box down below!"
     },
-    "showbutton": {
+    "button": {
         "title": "Show!"
     }
 }

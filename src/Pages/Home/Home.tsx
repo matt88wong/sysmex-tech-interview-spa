@@ -1,5 +1,5 @@
 //Components
-import { ShowButton, TextBox } from '../../Components';
+import { Button, TextBox } from '../../Components';
 
 //Content
 import TextResources from '../../Content/TextResources.json';
@@ -16,8 +16,8 @@ export const Home = () => {
         setTextValue(e.target.value);
     };
 
-    //Show the required alert box and set the alert to have the textbox text
-    const handleShowButtonClick = () => {
+    //Show the required alert box and set the alert to have the textbox text value
+    const handleButtonClick = () => {
         alert(textValue);
     }
 
@@ -26,7 +26,7 @@ export const Home = () => {
             {TextResources.home.name}
             {TextResources.home.title}
             <TextBox onTextValueChange={handleTextValueChange} textValue={textValue} />
-            <ShowButton disabled={!textValue} onClick={handleShowButtonClick} />
+            <Button disabled={!textValue} onClick={handleButtonClick} />
         </div>
     );
 }

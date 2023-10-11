@@ -13,7 +13,7 @@ export const TextBox = (props: TextBoxProps) => {
 
     //Put style prop on input tag with value as textbox colour prop thang
     return (
-        <div className='TextBoxContainer'>
+        <div className='TextBox-Container'>
             <h1>{TextResources.textbox.title}</h1>
             <input className='TextBox' name="TextBox" id="TextBox" onChange={onTextValueChange} placeholder={TextResources.textbox.placeholder} type="text" value={textValue}/>
         </div>
